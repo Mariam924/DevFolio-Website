@@ -326,6 +326,10 @@ p {
         font-size: 3rem;
         font-weight: bold;
 }
+.s-title{
+    padding-top: 7px;
+    font-size: 1.4rem;
+}
 .subtitle::after{
     content: "";
     width: 40px;
