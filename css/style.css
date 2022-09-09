@@ -165,8 +165,8 @@ header ul{
     position: absolute;
     top: 0;
     left: 0px;
-    height: 100%;
-    width: 100%;
+    right:0px;
+    bottom: 0px;
     opacity: 0.9;
 }
 
@@ -186,6 +186,8 @@ header ul{
 .three-lines{
     font-size: 28px;
     cursor: pointer;
+    display: block;
+
 }
 .home-container p::after{
     content: '|';
@@ -267,8 +269,18 @@ header ul{
 .font-home{
     font-size: 2.5rem;
 }
+.three-lines{
+    display:none;
 
 }
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .three-lines{
+        display:block;
+    
+    }
+}
+
 
 @media (max-width: 991px){
     .navbar ul {
