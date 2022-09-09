@@ -177,15 +177,15 @@ header ul{
 .home-title {
     color: #fff;
     font-weight: 600;
-    font-size: 4.5rem;
+    font-size: 3rem;
 }
-.home-container{
-    position: absolute;
-    top: 35%;
-    left: 3%;
-}
+
 .font-home{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
+}
+.three-lines{
+    font-size: 28px;
+    cursor: pointer;
 }
 .home-container p::after{
     content: '|';
@@ -254,6 +254,29 @@ header ul{
     99%{content: 'F|';}
     100%{content: '|';}
 
+}
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+@media (min-width: 768px){
+.home-title {
+    font-size: 4.5rem;
+}
+.font-home{
+    font-size: 2.5rem;
+}
+
+}
+
+@media (max-width: 991px){
+    .navbar ul {
+        display: none !important;
+    }
+    .navbar a:hover:after,.navbar .active:after {
+        display: none;
+    }
 }
 /* --------------------------------------------------- About ------------------------------------------------------------------ */
 
