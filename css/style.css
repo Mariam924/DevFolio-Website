@@ -277,7 +277,6 @@ header ul{
 @media (min-width: 768px) and (max-width: 991px){
     .three-lines{
         display:block;
-    
     }
 }
 
@@ -288,6 +287,9 @@ header ul{
     }
     .navbar a:hover:after,.navbar .active:after {
         display: none;
+    }
+    .info{
+        margin-top: 20px;
     }
 }
 /* --------------------------------------------------- About ------------------------------------------------------------------ */
@@ -301,6 +303,9 @@ header ul{
 .padding-y{
     padding-top: 4rem;
     padding-bottom: 4rem;
+}
+.info{
+    padding-top: 0px;
 }
 p {
     margin-top: 0;
